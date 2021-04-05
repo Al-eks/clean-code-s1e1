@@ -6,21 +6,21 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
-<body>
+<body class="page">
   <header class="header">
     <img class="header-img" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix"><a class="header-more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
   <main class="centered-main-page-element">
     <p id="top-section-for-adding-element-to-list">
-      <label for="new-task">Add Item</label>
+      <label class="new-task" for="new-task">Add Item</label>
       <section class="task-row-wrap">
         <input id="new-task"
                 class="task"
                 type="text">
-        <button>Add</button>
+        <button class="button-add">Add</button>
       </section>
     </p>
-  <h3>Todo</h3>
+  <h3 class="new-task">Todo</h3>
   <ul id="in-complete-tasks">
     <li>
       <input type="checkbox">
@@ -28,7 +28,7 @@
       <input type="text">
       <button class="edit">Edit</button>
       <button class="delete">
-        <img src="./remove.svg" alt="remove button">
+        <img src="./remove.svg" alt="remove">
       </button>
     </li>
     <li class="edit-mode">
@@ -37,11 +37,11 @@
       <input type="text" value="Go Shopping" class="task">
       <button class="edit">Save</button>
       <button class="delete">
-        <img src="./remove.svg" alt="remove button">
+        <img src="./remove.svg" alt="remove">
       </button>
     </li>
   </ul>
-  <h3>Completed</h3>
+  <h3 class="new-task">Completed</h3>
   <ul id="completed-tasks">
     <li>
       <input type="checkbox" checked>
@@ -49,7 +49,7 @@
       <input type="text" class="task">
       <button class="edit">Edit</button>
       <button class="delete">
-        <img src="./remove.svg" alt="remove button">
+        <img src="./remove.svg" alt="remove">
       </button>
     </li>
   </ul>
